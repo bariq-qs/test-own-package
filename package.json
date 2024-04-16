@@ -1,12 +1,14 @@
 {
   "name": "package-apollo",
-  "version": "0.0.6",
+  "version": "0.0.7",
+  "license": "MIT",
   "type": "module",
   "files": [
     "dist"
   ],
   "main": "./dist/package-apollo.umd.cjs",
   "module": "./dist/package-apollo.js",
+  "types": "./dist/types.d.ts",
   "exports": {
     ".": {
       "types": "./dist/types.d.ts",
